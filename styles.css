@@ -1,7 +1,8 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
 
 /* General CSS */
-
 
 body{
     margin: 0;
@@ -11,9 +12,21 @@ body{
 }
 a{
     text-decoration: none;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+a:hover{
+
+}
+button{
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 /* Header */
+
 header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;

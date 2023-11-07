@@ -51,6 +51,32 @@ header{
     justify-self: center;
     align-self: center;
 }
+
 /* Main */
+
+#spotlight{
+    background-image: url(assets/pexels-chan-walrus-958545.jpg);
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+    display: grid;
+    font-style: italic;
+}
+#spotlight>*{
+    margin: 20rem 0 0 10rem;
+    padding: 0;
+    font-size: 6rem;
+}
+#spotlight>p{
+    margin-top: 0;
+    margin-bottom: 20rem;
+    font-size: 2rem;
+}
+p>span{
+    display: block;
+}
 
 /* Footer */

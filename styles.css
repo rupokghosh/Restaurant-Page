@@ -1,9 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 /* General CSS */
+
 
 body{
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Ubuntu', sans-serif;
 }
 a{
     text-decoration: none;
 }
+
+/* Header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    gap: 5px;
+}
+.logoContainer{
+    margin-left: 4rem;
+}
+#logo{
+    max-width: 150px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: flex-end;
+    align-items: center;
+    margin-right: 3rem;
+}
+#book{
+    height: 3rem;
+    width: 6rem;
+    justify-self: center;
+    align-self: center;
+}
+/* Main */
+
+/* Footer */

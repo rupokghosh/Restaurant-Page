@@ -52,11 +52,10 @@ header{
     align-self: center;
 }
 
-/* Main */
+/* ---- Main ---- */
 
 #spotlight{
     background-image: url(assets/pexels-chan-walrus-958545.jpg);
-    
     background-size: cover;
     background-position: center center;
     background-repeat: no repeat;
@@ -79,4 +78,23 @@ p>span{
     display: block;
 }
 
+/* Food-Info Section */
+
+#foodInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foodInfoImg{
+    object-fit: cover;
+    max-width: 22rem;
+}
+
+.food{
+
+}
+
+.drinks {
+    
+}
 /* Footer */

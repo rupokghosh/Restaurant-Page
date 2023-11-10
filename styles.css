@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
 }
 a{
     text-decoration: none;
@@ -23,6 +23,10 @@ button{
     font-family: 'Ysabeau', sans-serif;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+p>span{
+    display: block;
 }
 
 /* Header */
@@ -60,7 +64,6 @@ header{
     background-position: center center;
     background-repeat: no repeat;
     color: white;
-    font-family: 'Ysabeau', sans-serif;
     display: grid;
     font-style: italic;
 }
@@ -74,27 +77,36 @@ header{
     margin-bottom: 20rem;
     font-size: 2rem;
 }
-p>span{
-    display: block;
-}
 
 /* Food-Info Section */
 
 #foodInfo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15rem;
 }
 
 .foodInfoImg{
     object-fit: cover;
-    max-width: 22rem;
+    max-width: 25rem;
+    border-radius: 6px;
 }
 
+.food>p,.drinks>p{
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
 .food{
-
+    display: grid;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    
 }
 
 .drinks {
-    
+    display: grid;
+    margin-top: 5rem;
+    gap: 2rem;
 }
 /* Footer */

@@ -7,14 +7,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #1E2025;
     font-family: 'Ysabeau', sans-serif;
+    color: white;
 }
+
 a{
     text-decoration: none;
     font-family: 'Ysabeau', sans-serif;
     font-size: 1.3rem;
-    color: black;
+    color: #92A4B1;
 }
 a:hover{
 
@@ -93,7 +95,7 @@ header{
 }
 
 .food>p,.drinks>p{
-    line-height: 1.8rem;
+    line-height: 2rem;
     font-size: 1.2rem;
     font-style: italic;
 }
@@ -108,5 +110,23 @@ header{
     display: grid;
     margin-top: 5rem;
     gap: 2rem;
+}
+
+/* Story Section */
+
+#story{
+    display: grid;
+    justify-items: center;
+}
+#story>h2{
+    font-size: 3rem;
+}
+#story>p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+    padding: 0 12rem 0 12rem;
+    letter-spacing: 0.2rem;
+    font-style: italic;
 }
 /* Footer */

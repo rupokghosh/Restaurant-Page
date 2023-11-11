@@ -19,8 +19,11 @@ a{
     color: #92A4B1;
 }
 a:hover{
-
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    transition-duration: 1s;
 }
+
 button{
     font-family: 'Ysabeau', sans-serif;
     font-size: 1.2rem;
@@ -30,7 +33,9 @@ button{
 p>span{
     display: block;
 }
-
+li{
+    list-style-type: none;
+}
 /* Header */
 
 header{
@@ -130,3 +135,15 @@ header{
     font-style: italic;
 }
 /* Footer */
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    color: #92A4B1;
+}
+

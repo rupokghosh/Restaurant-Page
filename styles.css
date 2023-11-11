@@ -1,206 +1,202 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau&display=swap");
 
 /* General CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #232323;
-    font-family: 'Ysabeau', sans-serif;
-    color: white;
-    display: grid;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  font-family: "Ysabeau", sans-serif;
+  color: white;
+  display: grid;
 }
 
-a{
-    text-decoration: none;
-    font-family: 'Ysabeau', sans-serif;
-    font-size: 1.3rem;
-    color: #f2f2f2;
+a {
+  text-decoration: none;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 1.3rem;
+  color: #f2f2f2;
 }
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: palevioletred;
-    transition-duration: 1s;
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: palevioletred;
+  transition-duration: 1s;
 }
 
-button{
-    font-family: 'Ysabeau', sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
-    background-color: rgba(197, 194, 185, 1);
+button {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: rgba(197, 194, 185, 1);
 }
-button:hover{
-    background-color: #232323;
-    color: white;
-    transition: 400ms;
+button:hover {
+  background-color: #232323;
+  color: white;
+  transition: 400ms;
 }
-p>span{
-    display: block;
+p > span {
+  display: block;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
 /* Header */
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
-    gap: 5px;
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
 }
-.logoContainer{
-    margin-left: 4rem;
+.logoContainer {
+  margin-left: 4rem;
 }
-#logo{
-    max-width: 150px;
+#logo {
+  max-width: 150px;
 }
-.nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: flex-end;
-    align-items: center;
-    margin-right: 3rem;
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: flex-end;
+  align-items: center;
+  margin-right: 3rem;
 }
-#book{
-    height: 3rem;
-    width: 6rem;
-    justify-self: center;
-    align-self: center;
+#book {
+  height: 3rem;
+  width: 6rem;
+  justify-self: center;
+  align-self: center;
 }
 
 /* ---- Main ---- */
 
-main{
-    display: grid;
+main {
+  display: grid;
 }
 
-#spotlight{
-    background-image: url(assets/Untitled\ design.png);
-    margin: 1rem 10rem 1rem 10rem;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no repeat;
-    color: white;
-    display: grid;
-    font-style: italic;
-    
+#spotlight {
+  background-image: url(assets/Untitled\ design.png);
+  margin: 1rem 10rem 1rem 10rem;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+  color: white;
+  display: grid;
+  font-style: italic;
 }
-#spotlight>*{
-    margin: 20rem 0 0 10rem;
-    padding: 0;
-    font-size: 6rem;
+#spotlight > * {
+  margin: 20rem 0 0 10rem;
+  padding: 0;
+  font-size: 6rem;
 }
-#spotlight>p{
-    margin-top: 0;
-    margin-bottom: 20rem;
-    font-size: 2rem;
+#spotlight > p {
+  margin-top: 0;
+  margin-bottom: 20rem;
+  font-size: 2rem;
 }
 
 /* Food-Info Section */
 
-#foodInfo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15rem;
+#foodInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15rem;
 }
 
-.foodInfoImg{
-    object-fit: cover;
-    max-width: 25rem;
-    border-radius: 6px;
+.foodInfoImg {
+  object-fit: cover;
+  max-width: 25rem;
+  border-radius: 6px;
 }
 
-.food>p,.drinks>p{
-    line-height: 2rem;
-    font-size: 1.2rem;
-    font-style: italic;
+.food > p,
+.drinks > p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
-.food{
-    display: grid;
-    justify-content: flex-end;
-    margin-top: 2rem;
-    
+.food {
+  display: grid;
+  justify-content: flex-end;
+  margin-top: 2rem;
 }
 
 .drinks {
-    display: grid;
-    margin-top: 5rem;
-    gap: 2rem;
+  display: grid;
+  margin-top: 5rem;
+  gap: 2rem;
 }
 
 /* Story Section */
 
-#story{
-    display: grid;
-    justify-items: center;
-    background-color: #363636;
-    width: 80vw;
-    place-self: center;
-    border-radius: 10px;
-    margin: 2rem 0 2rem 0;
+#story {
+  display: grid;
+  justify-items: center;
+  background-color: #363636;
+  width: 80vw;
+  place-self: center;
+  border-radius: 10px;
+  margin: 2rem 0 2rem 0;
 }
-#story>h2{
-    font-size: 3rem;
+#story > h2 {
+  font-size: 3rem;
 }
-#story>p{
-    font-size: 1.5rem;
-    line-height: 3rem;
-    text-align: center;
-    padding: 0 12rem 0 12rem;
-    letter-spacing: 0.2rem;
-    font-style: italic;
+#story > p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+  padding: 0 12rem 0 12rem;
+  letter-spacing: 0.2rem;
+  font-style: italic;
 }
 
 /* Location Info */
 
-#locationInfo{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    justify-items: center;
-    align-items: center;
-    gap: 1rem;
-    font-style: italic;
-    padding: 1rem 0 3rem 0;
-    
+#locationInfo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  font-style: italic;
+  padding: 1rem 0 3rem 0;
 }
 
-.locationText{
-    font-size: 2rem;
-    line-height: 3rem;
+.locationText {
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
-.locationText>button{
-    height: 3rem;
-    width: 8rem;
-    border-radius: 10px;
+.locationText > button {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 10px;
 }
 
-.locationImages{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    padding-right: 7rem;
-
+.locationImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding-right: 7rem;
 }
-.locationImages>img{
-    object-fit: cover;
-    width: 250px;
-    height: 250px;
-    border-radius: 5px;
+.locationImages > img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
 }
 /* Footer */
 
-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    background-color: black;
-    padding-top: 2rem;
-    font-size: 1.3rem;
-    color: #92A4B1;
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #92a4b1;
 }
-

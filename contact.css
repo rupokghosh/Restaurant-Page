@@ -1,0 +1,17 @@
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 10fr;
+  justify-items: center;
+}
+form {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 3fr 1fr;
+}
+fieldest {
+  border-style: none;
+}
+.name-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

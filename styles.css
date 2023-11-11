@@ -28,6 +28,7 @@ button{
     font-family: 'Ysabeau', sans-serif;
     font-size: 1.2rem;
     cursor: pointer;
+    background-color: rgba(197, 194, 185, 1);
 }
 button:hover{
     background-color: #232323;

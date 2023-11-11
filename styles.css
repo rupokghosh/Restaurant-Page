@@ -1,5 +1,4 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
 
 /* General CSS */
@@ -30,13 +29,18 @@ button{
     font-size: 1.2rem;
     cursor: pointer;
 }
-
+button:hover{
+    background-color: #232323;
+    color: white;
+    transition: 400ms;
+}
 p>span{
     display: block;
 }
 li{
     list-style-type: none;
 }
+
 /* Header */
 
 header{
@@ -80,6 +84,7 @@ main{
     color: white;
     display: grid;
     font-style: italic;
+    
 }
 #spotlight>*{
     margin: 20rem 0 0 10rem;
@@ -157,6 +162,7 @@ main{
     gap: 1rem;
     font-style: italic;
     padding: 1rem 0 3rem 0;
+    
 }
 
 .locationText{

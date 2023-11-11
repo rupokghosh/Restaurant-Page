@@ -134,6 +134,38 @@ header{
     letter-spacing: 0.2rem;
     font-style: italic;
 }
+
+/* Location Info */
+
+#locationInfo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    font-style: italic;
+    padding: 1rem 0 3rem 0;
+}
+
+.locationText{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.locationImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding-right: 7rem;
+
+}
+.locationImages>img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
 /* Footer */
 
 footer{

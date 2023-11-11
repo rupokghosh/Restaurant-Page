@@ -7,16 +7,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #1E2025;
+    background-color: #232323;
     font-family: 'Ysabeau', sans-serif;
     color: white;
+    display: grid;
 }
 
 a{
     text-decoration: none;
     font-family: 'Ysabeau', sans-serif;
     font-size: 1.3rem;
-    color: #92A4B1;
+    color: #f2f2f2;
 }
 a:hover{
     text-decoration: underline;
@@ -65,8 +66,14 @@ header{
 
 /* ---- Main ---- */
 
+main{
+    display: grid;
+}
+
 #spotlight{
     background-image: url(assets/Untitled\ design.png);
+    margin: 1rem 10rem 1rem 10rem;
+    border-radius: 15px;
     background-size: cover;
     background-position: center center;
     background-repeat: no repeat;
@@ -122,6 +129,11 @@ header{
 #story{
     display: grid;
     justify-items: center;
+    background-color: #363636;
+    width: 80vw;
+    place-self: center;
+    border-radius: 10px;
+    margin: 2rem 0 2rem 0;
 }
 #story>h2{
     font-size: 3rem;
@@ -150,6 +162,12 @@ header{
 .locationText{
     font-size: 2rem;
     line-height: 3rem;
+}
+
+.locationText>button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
 }
 
 .locationImages{

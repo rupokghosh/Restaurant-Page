@@ -201,3 +201,22 @@ footer {
   font-size: 1.3rem;
   color: #92a4b1;
 }
+
+/* cross reference page */
+
+#crossReferenceHeader{
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}
+table,
+td,
+th {
+  border: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  font-size: 24px;
+  margin: 0 10rem 0 10rem;
+}
+td{
+  text-align: center;
+}

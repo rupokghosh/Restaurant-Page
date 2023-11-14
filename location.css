@@ -1,0 +1,36 @@
+.text {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+.locationContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.locations {
+  text-align: center;
+  margin: 0;
+}
+
+.locations img {
+  width: 25rem;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 15rem;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(60, 86, 101, 1);
+}

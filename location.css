@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-img:hover {
+.locations img:hover {
   transform: scale(1.2);
   box-shadow: 0 0 20px rgba(60, 86, 101, 1);
 }

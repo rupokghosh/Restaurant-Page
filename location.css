@@ -34,16 +34,12 @@
   transform: scale(1.2);
   box-shadow: 0 0 20px rgba(60, 86, 101, 1);
 }
-.video{
+.video {
   display: grid;
   justify-content: center;
   margin-bottom: 20px;
- 
 }
-.video{
-  
-}
-h3{
+h3 {
   text-align: center;
   margin-top: 10px;
 }

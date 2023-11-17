@@ -1,0 +1,38 @@
+ main{
+    display: grid;
+    justify-items: center;
+ }
+/* fulfill 5.2f */
+section {
+    width: 40vw;
+    float: both;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+/* fulfill 5.2f */
+  section>img {
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+  }
+
+  h2 {
+    color: blanchedalmond;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .price {
+    color: #ff7f50;
+  }

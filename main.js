@@ -1,4 +1,5 @@
-// code to show when website was last updated
+// code to show when website was last updated 
+// fulfills 5.6a
 
 document.addEventListener("DOMContentLoaded", function () {
     var lastModifiedDate = new Date(document.lastModified);

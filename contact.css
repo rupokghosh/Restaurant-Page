@@ -3,29 +3,34 @@ main {
   grid-template-rows: 1fr 1fr 10fr;
   justify-items: center;
 }
+/* fulfills 5.2a, 5.2f, 5.3b*/
 form {
-    display: grid;
-    grid-template-rows: repeat(6, auto);
-    min-width: 30vw;
-    gap: 10px;
-    padding: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
-    margin-bottom: 3rem;
-    box-shadow: 2px 2px  #cccccc ;
-
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  min-width: 30vw;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  box-shadow: 2px 2px #cccccc;
 }
 input,
 select,
 textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #ceccc9;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ceccc9;
 }
-.contactHeader{
-  text-shadow:bisque 1px 0 6px;
+/* fulfills 5.2f */
+.contactHeader {
+  text-shadow: bisque 1px 0 6px;
+}
+input:focus {
+  border-color: red;
+  outline: none;
 }

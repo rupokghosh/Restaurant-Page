@@ -5,21 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AfroIndian</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reservation.css">
     <script src="main.js" defer></script>
   </head>
   <body>
     <header>
       <div class="logoContainer">
-        <img src="assets/logo.png" alt="logo" id="logo" onclick="location.href = 'index.html'"/>
+        <img
+          src="assets/logo.png"
+          alt="logo"
+          id="logo"
+          onclick="location.href = 'index.html'"
+        />
       </div>
       <div class="nav">
         <a href="menu.html">MENU</a>
         <a href="location.html">LOCATIONS</a>
         <a href="contact.html">CONTACT US</a>
       </div>
-      <button id="book" onclick="location.href = 'reservation.html'">BOOK</button>
+      <button id="book" onclick="location.href = 'reservation.html'">
+        BOOK
+      </button>
     </header>
-    <main></main>
+    <main>
+      <table>
+        <tr>
+          <th colspan="2">Hours Of Operation</th>
+        </tr>
+        <tr>
+          <td>Weekdays</td>
+          <td>9 am till 9 pm</td>
+        </tr>
+        <tr>
+          <td>Weekends</td>
+          <td>9 am till 3am</td>
+        </tr>
+      </table>
+      <h1>
+        Note: Reservations only open from 5pm onwards due to busy schedule.
+      </h1>
+      <h4>Reserve your spot using the form below!</h4>
+      <form id="reservationForm" >
+        <label for="date">Reservation Date</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Reservation Time</label>
+        <select id="time" name="time" required>
+          <option value="5">5:00 PM</option>
+          <option value="6">6:00 PM</option>
+          <option value="7">7:00 PM</option>
+          <option value="8">8:00 PM</option>
+          <option value="9">9:00 PM</option>
+        </select>
+        <label for="email" required>Email</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Submit Reservation" />
+      </form>
+    </main>
     <footer>
       <div class="footerLeft">
         <ul>

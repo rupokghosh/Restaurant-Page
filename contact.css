@@ -12,6 +12,7 @@ form {
     border: 1px solid #cccccc;
     border-radius: 8px;
     margin-bottom: 3rem;
+    box-shadow: 2px 2px  #cccccc ;
 
 }
 input,
@@ -24,4 +25,7 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #ceccc9;
+}
+.contactHeader{
+  text-shadow:bisque 1px 0 6px;
 }

@@ -1,5 +1,7 @@
 # Restaurant-Page
 
+Live page at: https://rupokghosh.github.io/Restaurant-Page/
+---
 This is a website designed for a restaurant, the Afro-Indian Restaurant. 
 This website is made purely using HTML, CSS, and JS. This website is also made without the
 use of CSS Flexbox in order for me to grasp a better understanding of CSS Grid. 
